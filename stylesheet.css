@@ -1,0 +1,201 @@
+body {
+  	font-family: 'Open Sans', sans-serif;
+  	background: url(images/background.jpg);
+	background-attachment:fixed;
+}
+
+.container-fluid {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+strong {
+	font-weight: 600;
+}
+
+p {
+	font-weight: 300;
+}
+
+hr {
+	border: 1px solid #D0021B;
+	width: 77%;
+}
+
+h2 {
+	font-weight: 300;
+	font-size: 35px;
+	text-align: center;
+}
+
+h4 {
+	color: #D0021B;
+}
+
+.hrposition {
+	margin-bottom: -61px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.minispacer {
+	height: 1.5em;
+}
+
+.spacer {
+	height: 3em;
+}
+
+.megaspacer {
+	height: 6em;
+}
+
+.clear {
+  	clear: both;
+ }
+
+.btn {
+  border : 0px solid transparent;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+input {
+	font-weight: 300;
+}
+
+textarea {
+	font-weight: 300;
+}
+
+.btn-default {
+  padding-bottom: 0px;
+  text-align: center;
+  background-color: #D0021B;
+  padding: 15px 20px;
+  border-radius: 0px;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.btn-default:hover {
+  color: white;
+  background-color: #F21732;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 0px solid transparent;
+    border-radius: 0px;
+}
+
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+#logo {
+	padding-top: 10px;
+}
+
+#header {
+	height: 660px;
+	background-size: cover;
+	text-align: center;
+	color: white;
+}
+
+#header li {
+	font-size: 14px;
+	font-weight: 300;
+}
+
+
+#header h1 {
+	font-weight: 300;
+	font-size: 50px;
+	padding-top: 55px;
+	padding-bottom: 45px;
+	/* background-color: rgba(0,0,0,0.5); */
+}
+
+#headerform {
+	height: 400px;
+	background-size: cover;
+	text-align: center;
+	color: white;
+}
+
+#headerform li {
+	font-size: 14px;
+	font-weight: 300;
+}
+
+
+#headerform h1 {
+	font-weight: 300;
+	font-size: 50px;
+	padding-top: 55px;
+	padding-bottom: 45px;
+}
+
+.rounded-number {
+	background: #D0021B;
+	border-radius: 50%;
+	width: 35px;
+	height : 35px;
+	color: white;
+	text-align: center;
+	font-size: 17px;
+	font-weight: 300;
+	line-height: 35px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.grey-color {
+	background-color: #F0F0F0;
+}
+
+
+.white-color {
+	background-color: white;
+}
+
+.pricesquare {
+    width: 335px;
+    background: white;
+    height: 345px;
+    padding: 30px 20px;
+    text-align: center;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+.footer {
+	color: white;
+}
+
+#how {
+	background-color: white;
+}

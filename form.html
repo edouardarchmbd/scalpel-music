@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>--- TODO ---</title>
+    
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="stylesheet.css">
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+      
+        
+
+        <div id="headerform">
+          <nav class="navbar navbar-inverse">
+            <div class="container">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Scalpel Music</a>
+              </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li><a href="#">Comment ça marche ?</a></li>
+                  <li><a href="#">Combine ça coûte ?</a></li>
+                  <li><a href="#">Questions</a></li>
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+          </nav>
+          <div class="col-xs-12">
+            <img src="images/logo.png" alt="Logo Scalpel Music" width="170px" id="logo" class="hidden-xs">
+            <h1>INFORMATIONS</h1>
+          </div>
+        </div>
+
+
+
+        <div id="how">
+          <div class="col-xs-12 white-color">
+            <div class="spacer"></div>
+            <h2>ÉTAPE 1</h2>
+            <div class="minispacer"></div>
+            <p class="text-center">Afin de pouvoir nous occuper de votre commande, nous avons besoin de quelques renseignements concernant vos morceaux ! <br>À l'issu de ce formulaire votre commande sera traité et nous prendrons contact avec vous pour nous envoyer vos fichiers.</p>
+
+            <fieldset>
+              <form action="http://formspree.io/archimbaud.edouard@gmail.com" method="POST" class="cd-form floating-labels">
+                <div class="icon"><p>VOTRE NOM ET PRÉNOM :</p>
+                  <input type="text" name="name" class="user" id="cd-name" placeholder="Nom et prénom" required>
+                </div>
+                <div class="icon"><p>VOTRE MAIL :</p>
+                  <input type="email" name="_replyto" id="cd-email" class="email" placeholder="Email" required>
+                </div>
+                <div class="icon"><p>VOS RÉFÉRENCES CONCERNANT LE MIXAGE :</p>
+                  <textarea name="message" rows="5" cols="66" placeholder="Votre message :)" id="cd-textarea" class="message" required></textarea>
+                </div>  
+                <input type="submit" value="ENVOYER !" class="btn btn-default">
+                <input type="hidden" name="_next" value="#payment" class="btn btn-default">
+
+              </fieldset>
+            </form>
+    </div>
+
+
+
+    <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+  </body>
+</html>
