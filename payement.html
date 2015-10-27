@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>--- TODO ---</title>
+    
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="stylesheet.css">
+
+  </head>
+  <body>
+
+    <div class="container-fluid">
+      
+        
+
+        <div id="headerform">
+          <div class="col-xs-12">
+            <img src="images/logo.png" alt="Logo Scalpel Music" width="170px" id="logo" class="hidden-xs">
+            <h1>PAIEMENT</h1>
+          </div>
+        </div>
+
+
+
+        <div id="how">
+          <div class="col-xs-12 white-color">
+            <div class="spacer"></div>
+            <h2>ÉTAPE 2</h2>
+            <div class="minispacer"></div>
+            <p class="text-center">Merci nous avons bien reçu votre message ! <br>Pour valider votre commande, merci de cliquer sur le bouton suivant pour procéder au paiement. <br>Nous vous contacterons dès que nous aurons reçu votre paiement !</p>
+        <div class="spacer"></div>
+              <div class="text-center">
+                <script
+                src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                data-key="pk_test_1MCYLYHQDa4DwnBoKd5CqoaP"
+                data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+                data-name="Demo SaaS Site"
+                data-description="Pro Subscription ($29 per month)"
+                data-panel-label="Subscribe"
+                data-label="Procéder au paiement"
+                data-amount="2900"
+                data-allow-remember-me="false">
+              </script>
+            </div>
+        <div class="megaspacer"></div>
+
+
+
+    <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+  </body>
+</html>
