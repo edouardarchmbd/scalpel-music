@@ -199,3 +199,8 @@ textarea {
 #how {
 	background-color: white;
 }
+
+.wufooform {
+	padding-left: 10%;
+	padding-right: 10%;
+}

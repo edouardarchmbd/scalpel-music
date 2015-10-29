@@ -3,10 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Scalpel Music | Mixing & Mastering simple et abordable de vos maquettes" />
 
     <title>Scalpel Msusic</title>
     
+    <link rel="icon" href="images/favicon.png" type="image/png">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
@@ -31,15 +32,15 @@
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Scalpel Music</a>
+                <a class="navbar-brand" href="index.html">Scalpel Music</a>
               </div>
 
               <!-- Collect the nav links, forms, and other content for toggling -->
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                  <li><a href="#">Comment ça marche ?</a></li>
-                  <li><a href="#">Combine ça coûte ?</a></li>
-                  <li><a href="#">Questions</a></li>
+                  <li><a href="index.html#how">Comment ça marche ?</a></li>
+                  <li><a href="index.html#price">Combien ça coûte ?</a></li>
+                  <li><a href="index.html#question">Questions</a></li>
                 </ul>
               </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -52,29 +53,35 @@
 
 
 
-        <div id="how">
+        <div id="paymentform">
           <div class="col-xs-12 white-color">
             <div class="spacer"></div>
             <h2>ÉTAPE 1</h2>
             <div class="minispacer"></div>
             <p class="text-center">Afin de pouvoir nous occuper de votre commande, nous avons besoin de quelques renseignements concernant vos morceaux ! <br>À l'issu de ce formulaire votre commande sera traité et nous prendrons contact avec vous pour nous envoyer vos fichiers.</p>
+            <div class="spacer"></div>
 
-            <fieldset>
-              <form action="http://formspree.io/archimbaud.edouard@gmail.com" method="POST" class="cd-form floating-labels">
-                <div class="icon"><p>VOTRE NOM ET PRÉNOM :</p>
-                  <input type="text" name="name" class="user" id="cd-name" placeholder="Nom et prénom" required>
-                </div>
-                <div class="icon"><p>VOTRE MAIL :</p>
-                  <input type="email" name="_replyto" id="cd-email" class="email" placeholder="Email" required>
-                </div>
-                <div class="icon"><p>VOS RÉFÉRENCES CONCERNANT LE MIXAGE :</p>
-                  <textarea name="message" rows="5" cols="66" placeholder="Votre message :)" id="cd-textarea" class="message" required></textarea>
-                </div>  
-                <input type="submit" value="ENVOYER !" class="btn btn-default">
-                <input type="hidden" name="_next" value="#payment" class="btn btn-default">
+            <div id="wufoo-m1xul6t610rzygi" class="wufooform">
+            Fill out my <a href="https://edouarda.wufoo.com/forms/m1xul6t610rzygi">online form</a>.
+            </div>
+            <script type="text/javascript">var m1xul6t610rzygi;(function(d, t) {
+            var s = d.createElement(t), options = {
+            'userName':'edouarda',
+            'formHash':'m1xul6t610rzygi',
+            'autoResize':true,
+            'height':'671',
+            'async':true,
+            'host':'wufoo.com',
+            'header':'show',
+            'ssl':true};
+            s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+            s.onload = s.onreadystatechange = function() {
+            var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+            try { m1xul6t610rzygi = new WufooForm();m1xul6t610rzygi.initialize(options);m1xul6t610rzygi.display(); } catch (e) {}};
+            var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+            })(document, 'script');</script>
 
-              </fieldset>
-            </form>
+
     </div>
 
 
